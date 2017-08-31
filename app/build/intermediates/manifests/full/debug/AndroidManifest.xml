@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.exapmle.android.englishlearning"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="26" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="26.0.0-alpha1" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.exapmle.android.englishlearning.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.exapmle.android.englishlearning.StandardActivity"
+            android:label="Wersja Standardowa" />
+        <activity
+            android:name="com.exapmle.android.englishlearning.KidsActivity"
+            android:label="Wersja dla dzieci" />
+        <activity
+            android:name="com.exapmle.android.englishlearning.ChooseDifficultyActivity"
+            android:label="Nauka" />
+        <activity
+            android:name="com.exapmle.android.englishlearning.DifficultyAActivity"
+            android:label="Easy" />
+        <activity
+            android:name="com.exapmle.android.englishlearning.DifficultyBActivity"
+            android:label="Medium" />
+        <activity
+            android:name="com.exapmle.android.englishlearning.DifficultyCActivity"
+            android:label="Hard" />
+        <activity android:name="com.exapmle.android.englishlearning.DisplayFinalListActivity" />
+    </application>
+
+</manifest>

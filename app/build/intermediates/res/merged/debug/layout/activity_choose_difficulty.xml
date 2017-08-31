@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundApp"
+    android:orientation="vertical"
+    tools:context="com.exapmle.android.englishlearning.ChooseDifficultyActivity"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:paddingBottom="32dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#000"
+        android:text="Choose difficulty level"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/difficultyEasy"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/difficultyA"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="Easy"
+            android:layout_marginLeft="32dp"
+            android:textSize="24sp"
+            android:textColor="#fff"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/arrow"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/difficultyMedium"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/difficultyB"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="Medium"
+            android:layout_marginLeft="32dp"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:textColor="#fff"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/arrow"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/difficultyHard"
+        android:layout_marginBottom="64dp"
+        android:id="@+id/difficultyC"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="Hard"
+            android:layout_marginLeft="32dp"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:textColor="#fff"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/arrow"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/standardMainColor"
+        android:id="@+id/difficultyOwnLists"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="Your lists"
+            android:layout_marginLeft="32dp"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:textColor="#fff"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/arrow"
+            />
+    </LinearLayout>
+
+</LinearLayout>

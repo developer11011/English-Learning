@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4A312A</color>
+
+    <color name="colorPrimaryDark">#2F1D1A</color>
+
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="backgroundApp">#FFF7DA</color>
+
+    <color name="standardMainColor">#FD8E09</color>
+
+    <color name="kidsMainColor">#00BFFF</color>
+
+    <color name="difficultyEasy">#379237</color>
+    <color name="difficultyEasyLight">#489348</color>
+
+    <color name="difficultyMedium">#DD8A00</color>
+    <color name="difficultyMediumLight">#EE9A00</color>
+
+    <color name="difficultyHard">#B22222</color>
+    <color name="difficultyHardLight">#C33333</color>
+</resources>

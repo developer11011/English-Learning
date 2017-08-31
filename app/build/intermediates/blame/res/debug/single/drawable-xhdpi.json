@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\buizness_image.png",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\buizness_image.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\crime_image.png",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\crime_image.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\slang_image.png",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\slang_image.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\plane_image.png",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\plane_image.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\kid_icon.png",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\kid_icon.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\useful_image.png",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\useful_image.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\medicines_icon.png",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\medicines_icon.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\coding_image.png",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\coding_image.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\organs_image.png",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\organs_image.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\emotions_image.png",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\emotions_image.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\arrow.png",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\arrow.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\adult_icon.png",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\adult_icon.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\math_image.png",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\math_image.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\computer_image.png",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\computer_image.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\quiz.png",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\quiz.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\learn.png",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\learn.png"
+    }
+]

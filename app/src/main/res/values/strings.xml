@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">English Learning</string>
+
+    <string name="welcoming_text">Witaj! Dzięki aplikacji English Learning możesz pogłębiać swoją wiedzę języku angielskim! Aplikacja zawiera gotowe listy słówek i quizy, ale również możesz stworzyć swoje.</string>
+</resources>
