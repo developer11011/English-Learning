@@ -32,12 +32,20 @@
         "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\coding_image.png"
     },
     {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\writing_image.png",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\writing_image.png"
+    },
+    {
         "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\organs_image.png",
         "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\organs_image.png"
     },
     {
         "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\emotions_image.png",
         "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\emotions_image.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abcd_image.png",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\abcd_image.png"
     },
     {
         "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\arrow.png",

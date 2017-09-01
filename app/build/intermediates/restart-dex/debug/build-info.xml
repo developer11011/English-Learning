@@ -6,22 +6,22 @@
     density="hdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1504212119594"
+    timestamp="1504279876588"
     token="-3001166380559324414"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="2434" />
+        duration="2654" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="494" />
+        duration="162" />
     <task
         name="verifier"
-        duration="421" />
+        duration="42" />
 
     <artifact
         location="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
@@ -32,7 +32,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1504199081446"
+        timestamp="1504269892585"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
@@ -73,7 +73,15 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1504212119594"
+        timestamp="1504278098985"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\AndroidStudioProjects\EnglishLearning\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1504279876588"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\split-apk\debug\slices\slice_2.apk"

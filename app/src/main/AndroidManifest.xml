@@ -34,7 +34,10 @@
         <activity
             android:name=".DifficultyCActivity"
             android:label="Hard" />
-        <activity android:name=".DisplayFinalListActivity"></activity>
+        <activity android:name=".DisplayFinalListActivity" />
+        <activity
+            android:name=".ChooseQuizTypeActivity"/>
+        <activity android:name=".WritingQuizActivity"></activity>
     </application>
 
 </manifest>

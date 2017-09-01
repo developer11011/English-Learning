@@ -45,6 +45,8 @@
             android:name="com.exapmle.android.englishlearning.DifficultyCActivity"
             android:label="Hard" />
         <activity android:name="com.exapmle.android.englishlearning.DisplayFinalListActivity" />
+        <activity android:name="com.exapmle.android.englishlearning.ChooseQuizTypeActivity" />
+        <activity android:name="com.exapmle.android.englishlearning.WritingQuizActivity" />
     </application>
 
 </manifest>

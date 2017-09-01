@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\AndroidStudioProjects\EnglishLearning\app\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from C:\AndroidStudioProjects\EnglishLearning\app\src\main\AndroidManifest.xml:2:1-43:12
 	package
 		ADDED from C:\AndroidStudioProjects\EnglishLearning\app\src\main\AndroidManifest.xml:3:5-50
 		INJECTED from C:\AndroidStudioProjects\EnglishLearning\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\AndroidStudioProjects\EnglishLearning\app\src\main\AndroidManifest
 		INJECTED from C:\AndroidStudioProjects\EnglishLearning\app\src\main\AndroidManifest.xml
 		INJECTED from C:\AndroidStudioProjects\EnglishLearning\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\AndroidStudioProjects\EnglishLearning\app\src\main\AndroidManifest.xml:5:5-38:19
+ADDED from C:\AndroidStudioProjects\EnglishLearning\app\src\main\AndroidManifest.xml:5:5-41:19
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\mikig\.android\build-cache\33b63ca4217b34cf7c292edc6f22b08587e128a4\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\mikig\.android\build-cache\2cbdd246c5a449bdb82d8a59979a4abc39b821b7\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\mikig\.android\build-cache\eeb21459eee4dd1ae30c2a5fbc5d6f9bd77302fc\output\AndroidManifest.xml:29:5-20
@@ -88,9 +88,17 @@ ADDED from C:\AndroidStudioProjects\EnglishLearning\app\src\main\AndroidManifest
 	android:name
 		ADDED from C:\AndroidStudioProjects\EnglishLearning\app\src\main\AndroidManifest.xml:35:13-48
 activity#com.exapmle.android.englishlearning.DisplayFinalListActivity
-ADDED from C:\AndroidStudioProjects\EnglishLearning\app\src\main\AndroidManifest.xml:37:9-71
+ADDED from C:\AndroidStudioProjects\EnglishLearning\app\src\main\AndroidManifest.xml:37:9-62
 	android:name
 		ADDED from C:\AndroidStudioProjects\EnglishLearning\app\src\main\AndroidManifest.xml:37:19-59
+activity#com.exapmle.android.englishlearning.ChooseQuizTypeActivity
+ADDED from C:\AndroidStudioProjects\EnglishLearning\app\src\main\AndroidManifest.xml:38:9-39:53
+	android:name
+		ADDED from C:\AndroidStudioProjects\EnglishLearning\app\src\main\AndroidManifest.xml:39:13-51
+activity#com.exapmle.android.englishlearning.WritingQuizActivity
+ADDED from C:\AndroidStudioProjects\EnglishLearning\app\src\main\AndroidManifest.xml:40:9-66
+	android:name
+		ADDED from C:\AndroidStudioProjects\EnglishLearning\app\src\main\AndroidManifest.xml:40:19-54
 uses-sdk
 INJECTED from C:\AndroidStudioProjects\EnglishLearning\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\mikig\.android\build-cache\33b63ca4217b34cf7c292edc6f22b08587e128a4\output\AndroidManifest.xml:21:5-23:78

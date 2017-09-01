@@ -16,10 +16,36 @@ public class WordLists {
         switch (position)
         {
             case 0:
-                easyList.add(new Word("", "", ""));
-                easyList.add(new Word("", "", ""));
-                easyList.add(new Word("", "", ""));
-                easyList.add(new Word("", "", ""));
+                easyList.add(new Word("departure", "odlot", "diparcze"));
+                easyList.add(new Word("arrival", "przylot", "erajwal"));
+                easyList.add(new Word("delayed", "opóźniony", "dilejt"));
+                easyList.add(new Word("check-in desk", "stanowisko odprawy", "czek in desk"));
+                easyList.add(new Word("boarding pass", "karta pokładowa", "bordink pas"));
+                easyList.add(new Word("destination", "cel podróży", "destinejszyn"));
+                easyList.add(new Word("luggage", "bagaż", "lagicz"));
+                easyList.add(new Word("window seat", "miejsce pry oknie", "łindoł sit"));
+                easyList.add(new Word("passport control", "kontrola paszportowa", "pasport kontrol"));
+                easyList.add(new Word("security guard", "ochroniarz", "sekjuriti gard"));
+                easyList.add(new Word("currency exchange", "kantor", "karensi ikszencz"));
+                easyList.add(new Word("life jacket", "kamizelka ratunkowa", "lajf dżaket"));
+                easyList.add(new Word("emergency exit", "wyjście awaryjne", "imerdżensi egzit"));
+                easyList.add(new Word("landing", "lądowanie", "lendink"));
+                easyList.add(new Word("hand luggage", "bagaż podręczny", "hend lagicz"));
+                easyList.add(new Word("departure hall", "hala odlotów", "diparczyr hal"));
+                easyList.add(new Word("a customs officer", "celnik", "e kastom ofiser"));
+                easyList.add(new Word("gate", "bramka", "gejt"));
+                easyList.add(new Word("bord", "pokład", "bord"));
+                easyList.add(new Word("cabin crew", "personel pokładowy", "kabin kru"));
+                easyList.add(new Word("cancelled flight", "odwołany lot", "kanseld flajt"));
+                easyList.add(new Word("duty-free shop", "sklep bezcłowy", "djuti fri szop"));
+                easyList.add(new Word("fasten seatbelts", "zapiąć pasy", "fasen sitbelts"));
+                easyList.add(new Word("runway", "pas startowy", "ranłej"));
+                easyList.add(new Word("overhead locker", " schowek bagażowy", "ołwerhed loker"));
+                easyList.add(new Word("baggage tag", "identyfikator na bagaż", "bagicz tag"));
+                easyList.add(new Word("baggage reclaim", "odbiór bagażu", "bagicz riklejm"));
+                easyList.add(new Word("flight attendant", "stewardesa", "flajt atendant"));
+                easyList.add(new Word("aisle seat", "miejsce przy przejściu", "ejzel sit"));
+                easyList.add(new Word("ticket counter ", "kasa biletowa", "tiket kaunter"));
                 name="At the Airport";
                 break;
         }
@@ -34,25 +60,66 @@ public class WordLists {
         switch (position)
         {
             case 0:
-                mediumList.add(new Word("", "", ""));
-                mediumList.add(new Word("", "", ""));
-                mediumList.add(new Word("", "", ""));
-                mediumList.add(new Word("", "", ""));
+                mediumList.add(new Word("armed robbery", "napad z bronią", "armd roberi"));
+                mediumList.add(new Word("kidnapping", "porwanie", "kidnaping"));
+                mediumList.add(new Word("homicide", "zabójstwo", "homisajd"));
+                mediumList.add(new Word("mugging", "napad uliczny", "maging"));
+                mediumList.add(new Word("shoplifting", "kradzież ze sklepu", "szoplifting"));
+                mediumList.add(new Word("speeding", "przekroczenie prędkości", "spidin(g)"));
+                mediumList.add(new Word("fine", "grzywna ", "fajn"));
+                mediumList.add(new Word("petty crime", "małe przestępstwo", "peti crajm"));
+                mediumList.add(new Word("a judge", "sędzia", "e dżadż"));
+                mediumList.add(new Word("drug traffic", "handel narkotykami", "dżrag trafik"));
+                mediumList.add(new Word("blackmail", "szantaż", "blakmejl"));
+                mediumList.add(new Word("community service", "praca społeczna", "komjuniti serwis"));
+                mediumList.add(new Word("fraud", "oszustwo", "frod"));
+                mediumList.add(new Word("witness", "świadek", "łitnes"));
+                mediumList.add(new Word("a trial", "proces sądowy", "e czrajal"));
+                mediumList.add(new Word("to charge with", "oskarżać o", "to czardż łif"));
+                mediumList.add(new Word("to confess", "przyznać się", "tu konfes"));
+                mediumList.add(new Word("counterfeit money", "fałszywe pieniądze", "kaunterfit mani"));
+                mediumList.add(new Word("pickpocket", "kieszonkowiec", "pikpoket"));
+                mediumList.add(new Word("criminal record", "kryminalna przeszłość", "kriminal rekord"));
+                mediumList.add(new Word("assassin", "płatny morderca", "asasin"));
+                mediumList.add(new Word("corruption", "korupcja", "korapszyn"));
+                mediumList.add(new Word("to stand up in court", "obronić się w sądzie", "tu stand ap in kort"));
+                mediumList.add(new Word("ransom", "okup", "ransom"));
+                mediumList.add(new Word("arsonist", "podpalacz", "arsonist"));
+                mediumList.add(new Word("misdemeanour", "wykroczenie", "misdeminer"));
+                mediumList.add(new Word("spy", "szpieg", "spaj"));
+                mediumList.add(new Word("contraband", "przemyt", "konczraband"));
                 name = "Crime";
                 break;
             case 1:
-                mediumList.add(new Word("", "", ""));
-                mediumList.add(new Word("", "", ""));
+                mediumList.add(new Word("away", "w więzieniu", "ełej"));
+                mediumList.add(new Word("black number", "człowiek starej daty", "blak namber"));
                 mediumList.add(new Word("", "", ""));
                 mediumList.add(new Word("", "", ""));
                 name = "City slang";
                 break;
             case 2:
-                mediumList.add(new Word("", "", ""));
-                mediumList.add(new Word("", "", ""));
-                mediumList.add(new Word("", "", ""));
-                mediumList.add(new Word("", "", ""));
-                name = "Medicines";
+                mediumList.add(new Word("examination", "badanie", "egzaminejszyn"));
+                mediumList.add(new Word("delivery", "poród", "deliveri"));
+                mediumList.add(new Word("syringe", "strzykawka", "sirindż"));
+                mediumList.add(new Word("stretcher", "nosze", "streczer"));
+                mediumList.add(new Word("treatment", "leczenie", "czritment"));
+                mediumList.add(new Word("pills", "pigułki", "pils"));
+                mediumList.add(new Word("artificial respiration", "sztuczne oddychanie", "artifiszial respirejszyn"));
+                mediumList.add(new Word("stitches", "szwy", "sticzys"));
+                mediumList.add(new Word("checkup", "badanie ogólne", "czekap"));
+                mediumList.add(new Word("quack doctor", "znachor", "kłak doktor"));
+                mediumList.add(new Word("operating-theatre", "sala operacyjna", "operejting fijater"));
+                mediumList.add(new Word("vaccination", "szczepienie", "waksinejszyn"));
+                mediumList.add(new Word("anaesthetic", "środek znieczulający", "anestetik"));
+                mediumList.add(new Word("cotton wool", "wata", "koton łul"));
+                mediumList.add(new Word("injection", "zzastrzyk", "indżekszyn"));
+                mediumList.add(new Word("healer", "uzdrowiciel", "hiler"));
+                mediumList.add(new Word("to prescribe", "przepisać lek", "tu proskrajb"));
+                mediumList.add(new Word("operation", "operacja", "operejszyn"));
+                mediumList.add(new Word("to recover", "wrócić do zdrowia", "tu rikawer"));
+                mediumList.add(new Word("casualty", "ranny w wypadku", "karzulti"));
+                mediumList.add(new Word("extraction", "usunięcie zęba", "ekstrakszyn"));
+                name = "Medicine";
                 break;
         }
         return mediumList;

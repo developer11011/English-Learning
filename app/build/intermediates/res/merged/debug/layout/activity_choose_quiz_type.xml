@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundApp"
+    android:orientation="vertical"
+    tools:context="com.exapmle.android.englishlearning.ChooseQuizTypeActivity"
+    android:paddingRight="32dp"
+    android:paddingLeft="32dp"
+    android:paddingBottom="32dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#000"
+        android:id="@+id/forWithList"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/standardMainColor"
+        android:orientation="vertical"
+        android:id="@+id/quizWriting"
+        android:layout_marginBottom="32dp"
+        android:padding="4dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Writing"
+            android:padding="4dp"
+            android:textSize="32dp"
+            android:textAlignment="center"
+            android:textColor="#fff"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/writing_image"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/standardMainColor"
+        android:orientation="vertical"
+        android:padding="4dp"
+        android:id="@+id/quizABCD">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A B C D"
+            android:padding="4dp"
+            android:textSize="32dp"
+            android:textAlignment="center"
+            android:textColor="#fff"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/abcd_image"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+</LinearLayout>

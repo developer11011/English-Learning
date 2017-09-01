@@ -28,7 +28,9 @@ public class StandardActivity extends AppCompatActivity {
         quiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Wersja standardowa jest jeszcze w budowie.", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getApplicationContext(), ChooseDifficultyActivity.class);
+                intent.putExtra("isQuiz", true);
+                startActivity(intent);
             }
         });
 

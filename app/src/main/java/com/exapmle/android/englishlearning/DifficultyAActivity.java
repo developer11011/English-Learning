@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DifficultyAActivity extends AppCompatActivity {
+    private boolean isQuiz;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,17 +25,37 @@ public class DifficultyAActivity extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(theAdapter);
 
+        Bundle bundle = getIntent().getExtras();
+        if(bundle!=null)
+        {
+            isQuiz = bundle.getBoolean("isQuiz");
+        }
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                Intent intent = new Intent(getApplicationContext(), DisplayFinalListActivity.class);
-                intent.putExtra("itemPosition", position);
-                intent.putExtra("withDifficulty", 1);
-                startActivity(intent);
-            }
-        });
 
+        if(isQuiz==true)
+        {
+            getSupportActionBar().setTitle("Easy - quiz");
+            listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                    Intent intent = new Intent(getApplicationContext(), ChooseQuizTypeActivity.class);
+                    intent.putExtra("difficulty", 1);
+                    intent.putExtra("position", position);
+                    startActivity(intent);
+                }
+            });
+        }
+        else {
+            listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                    Intent intent = new Intent(getApplicationContext(), DisplayFinalListActivity.class);
+                    intent.putExtra("itemPosition", position);
+                    intent.putExtra("withDifficulty", 1);
+                    startActivity(intent);
+                }
+            });
+        }
 
     }
 }
