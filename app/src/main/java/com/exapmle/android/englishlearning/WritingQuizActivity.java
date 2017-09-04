@@ -1,13 +1,12 @@
 package com.exapmle.android.englishlearning;
 
+import android.app.Activity;
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.Switch;
-import android.widget.Toast;
-
+import android.view.inputmethod.InputMethodManager;
 import java.util.ArrayList;
 
-import static android.media.CamcorderProfile.get;
 
 public class WritingQuizActivity extends AppCompatActivity {
     private int difficulty;
@@ -40,8 +39,14 @@ public class WritingQuizActivity extends AppCompatActivity {
         }
         getSupportActionBar().setTitle("Quiz - "+wordLists.getCategoryName());
 
-        Word xd = (Word) list.get(2);
-        Toast.makeText(getApplicationContext(), ""+xd.getPolishWord(), Toast.LENGTH_LONG).show();
-
     }
+
+
+    public void dismissKeyboard(Activity activity) {
+        InputMethodManager imm = (InputMethodManager) activity.getSystemService(Context.INPUT_METHOD_SERVICE);
+        if (null != activity.getCurrentFocus())
+            imm.hideSoftInputFromWindow(activity.getCurrentFocus()
+                    .getApplicationWindowToken(), 0);
+    }
+
 }

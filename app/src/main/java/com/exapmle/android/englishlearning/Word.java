@@ -9,6 +9,7 @@ public class Word{
     private String mPolishWord;
     private String mPronunciation;
 
+    public Word(){}
 
     public Word(String listName, int ResId)
     {

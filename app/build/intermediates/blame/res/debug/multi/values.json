@@ -893,7 +893,14 @@
                     "endOffset": 6278
                 },
                 "from": {
-                    "file": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 161,
+                        "endColumn": 45,
+                        "endOffset": 202
+                    }
                 }
             },
             {
@@ -977,14 +984,7 @@
                     "endOffset": 6633
                 },
                 "from": {
-                    "file": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\values\\colors.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 474,
-                        "endColumn": 50,
-                        "endOffset": 520
-                    }
+                    "file": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -996,14 +996,7 @@
                     "endOffset": 6689
                 },
                 "from": {
-                    "file": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\values\\colors.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 526,
-                        "endColumn": 55,
-                        "endOffset": 577
-                    }
+                    "file": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {

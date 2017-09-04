@@ -2,13 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\mikig\.android\build-cache\3aa14a718859bcbbd3b620a34da501cc4fb0f1ea\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0c90c5e539eeaeb13ad2f807fe4f694e16d1dbbe\classes.dex" />
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\pre-dexed\debug\classes_4029013a29a6387ba1aa299505a78801f9165438.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mikig\.android\build-cache\3e3bd7cc91a248e8e60ecd613802db4a876511cf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\pre-dexed\debug\classes_61f4df893bbf5dacbb38ee9101411849a4516ce7.jar" />
     </item>
     <item
         is-multidex="true"
@@ -18,6 +27,105 @@
         revision="26.0.1"
         sha1="30ebedebb3837009dc00e62e83fe0695c820b367">
         <dex dex="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_691da75c1a111f4746ae6ba9f76aadb24d91d976\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mikig\.android\build-cache\af2ecf8ce8caeb834d8380339642170fc3523063\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\pre-dexed\debug\classes_98226d1c9f7cf8235ef097829c42dc7535be7c0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mikig\.android\build-cache\2ab54eaa5343022a62cae11c9aa66f4e0d98cb5d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\pre-dexed\debug\classes_92d12d403086b89870e4213e9b4932b1d81189dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mikig\.android\build-cache\40d436c14c1a8e3aa2ac7fd04e345b3c42d45822\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\pre-dexed\debug\classes_a4252c0f5c94bcafcd94081ce958d3c1c78e7d96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mikig\.android\build-cache\b3c9b4444e424e8db007199b608be5f19e247c77\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\pre-dexed\debug\classes_f6fec60e3a9b054dea709cbef0f2728e505f0cb8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mikig\.android\build-cache\eeb21459eee4dd1ae30c2a5fbc5d6f9bd77302fc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\pre-dexed\debug\classes_ea85c89770ffb06819d85f855072dc1a6758e815.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mikig\.android\build-cache\2cbdd246c5a449bdb82d8a59979a4abc39b821b7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\pre-dexed\debug\classes_722ac3acbc548c432bfadc137b346efc5aa5b557.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mikig\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_c4726d3bcb211a613a07c848ca375365288ddbf4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mikig\.android\build-cache\33b63ca4217b34cf7c292edc6f22b08587e128a4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\pre-dexed\debug\classes_c18c1f5cef4a27eccf190246f455379c9a1050c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mikig\.android\build-cache\37bc043c014d38b37f9c1fc16a8c00f50f8ae48c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\pre-dexed\debug\classes_316da9203368a2a9dc07f0f4889cdd382e6e60ff.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0c90c5e539eeaeb13ad2f807fe4f694e16d1dbbe\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mikig\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\AndroidStudioProjects\EnglishLearning\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_506b2589a5a72d11ca4f176ac84e851fd464ecbf.jar" />
     </item>
 
 </items>
