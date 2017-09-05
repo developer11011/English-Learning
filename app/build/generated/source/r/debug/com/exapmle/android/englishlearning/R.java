@@ -2365,8 +2365,7 @@ containing a value of this type.
         public static final int chronometer=0x7f0b0089;
         public static final int collapseActionView=0x7f0b0026;
         public static final int contentPanel=0x7f0b0039;
-        public static final int correctAnswer=0x7f0b0073;
-        public static final int correctOrWrong=0x7f0b0072;
+        public static final int correctAnswerText=0x7f0b0073;
         public static final int custom=0x7f0b0040;
         public static final int customPanel=0x7f0b003f;
         public static final int decor_content_parent=0x7f0b004d;
@@ -2423,6 +2422,7 @@ containing a value of this type.
         public static final int quizABCD=0x7f0b0065;
         public static final int quizWriting=0x7f0b0064;
         public static final int radio=0x7f0b0048;
+        public static final int resultTextView=0x7f0b0072;
         public static final int right_icon=0x7f0b008e;
         public static final int right_side=0x7f0b0087;
         public static final int screen=0x7f0b001d;

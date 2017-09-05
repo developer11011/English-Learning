@@ -93,8 +93,6 @@ public class WordLists {
             case 1:
                 mediumList.add(new Word("away", "w więzieniu", "ełej"));
                 mediumList.add(new Word("black number", "człowiek starej daty", "blak namber"));
-                mediumList.add(new Word("", "", ""));
-                mediumList.add(new Word("", "", ""));
                 name = "City slang";
                 break;
             case 2:

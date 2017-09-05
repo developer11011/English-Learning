@@ -48,14 +48,14 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textSize="36sp"
-            android:id="@+id/correctOrWrong"/>
+            android:id="@+id/resultTextView"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
             android:fontFamily="sans-serif-light"
             android:textColor="#000"
-            android:id="@+id/correctAnswer"/>
+            android:id="@+id/correctAnswerText"/>
 
     </LinearLayout>
 

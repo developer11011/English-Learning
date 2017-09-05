@@ -630,8 +630,7 @@ int id checkbox 0x7f0b0046
 int id chronometer 0x7f0b0089
 int id collapseActionView 0x7f0b0026
 int id contentPanel 0x7f0b0039
-int id correctAnswer 0x7f0b0073
-int id correctOrWrong 0x7f0b0072
+int id correctAnswerText 0x7f0b0073
 int id custom 0x7f0b0040
 int id customPanel 0x7f0b003f
 int id decor_content_parent 0x7f0b004d
@@ -688,6 +687,7 @@ int id progress_horizontal 0x7f0b0006
 int id quizABCD 0x7f0b0065
 int id quizWriting 0x7f0b0064
 int id radio 0x7f0b0048
+int id resultTextView 0x7f0b0072
 int id right_icon 0x7f0b008e
 int id right_side 0x7f0b0087
 int id screen 0x7f0b001d

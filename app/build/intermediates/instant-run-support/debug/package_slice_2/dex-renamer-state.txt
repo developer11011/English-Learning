@@ -1,4 +1,4 @@
-#Mon Sep 04 21:31:08 CEST 2017
+#Tue Sep 05 22:22:26 CEST 2017
 base.0=C\:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
 renamed.0=classes.dex
 file.0=C\:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex
