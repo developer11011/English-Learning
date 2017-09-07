@@ -2,6 +2,7 @@ package com.exapmle.android.englishlearning;
 
 import android.app.Activity;
 import android.content.Context;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -21,7 +24,9 @@ public class WritingQuizActivity extends AppCompatActivity {
     private int listId;
     ArrayList list = null;
     String correctAnswer;
+    String correctAnswerWithSpaces;
     String userTranslatedWord;
+    int questionsCounter=1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,19 +56,40 @@ public class WritingQuizActivity extends AppCompatActivity {
 
 
         displayWordToTranslate();
+        updateQuestionNumber(questionsCounter);
 
         Button submitButton = (Button) findViewById(R.id.submitButton);
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 dismissKeyboard(WritingQuizActivity.this);
-
                 userTranslatedWord = getUserInput();
-                boolean isAnswerCorrect = checkAnswer(correctAnswer, userTranslatedWord);
-
-                Toast.makeText(WritingQuizActivity.this, ""+isAnswerCorrect, Toast.LENGTH_SHORT).show();
+                checkAnswer(userTranslatedWord, correctAnswer);
             }
         });
+
+        Button nextButton = (Button) findViewById(R.id.nextButton);
+        nextButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                resetResults();
+                displayWordToTranslate();
+                questionsCounter++;
+                updateQuestionNumber(questionsCounter);
+            }
+        });
+
+        Button finishButton = (Button) findViewById(R.id.finishButton);
+        finishButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                displayHint();
+            }
+        });
+
+
+
+
 
     }
 
@@ -87,12 +113,16 @@ public class WritingQuizActivity extends AppCompatActivity {
             Word wordObject = (Word) list.get(randomWord);
             wordToTranslate = wordObject.getEnglishWord();
             correctAnswer = wordObject.getPolishWord();
+            correctAnswerWithSpaces = correctAnswer;
+            correctAnswer = wordObject.getPolishWord().replaceAll("\\s","").toLowerCase();
         }
         else
         {
             Word wordObject = (Word) list.get(randomWord);
             wordToTranslate = wordObject.getPolishWord();
             correctAnswer = wordObject.getEnglishWord();
+            correctAnswerWithSpaces = correctAnswer;
+            correctAnswer = wordObject.getEnglishWord().replaceAll("\\s","").toLowerCase();
         }
         TextView wordToTranslateTextView = (TextView) findViewById(R.id.wordToTranslate);
         wordToTranslateTextView.setText(wordToTranslate);
@@ -101,14 +131,55 @@ public class WritingQuizActivity extends AppCompatActivity {
     private String getUserInput()
     {
         EditText translatedWordEditText = (EditText) findViewById(R.id.translatedWord);
-        String translated = translatedWordEditText.getText().toString();
+        String translated = translatedWordEditText.getText().toString().replaceAll("\\s","").toLowerCase();
         return translated;
     }
 
-    private boolean checkAnswer(String a, String b)
+    private void checkAnswer(String a, String b)
     {
-        return a.equals(b) ? true : false;
+        boolean result = a.equals(b) ? true : false;
+        TextView correctOrWrongTextView = (TextView) findViewById(R.id.resultTextView);
+        TextView correctAnswerTextView = (TextView) findViewById(R.id.correctAnswerText);
+
+        if(result)
+        {
+            correctOrWrongTextView.setText("Correct!");
+            correctOrWrongTextView.setTextColor(Color.parseColor("#00ff00"));
+            correctAnswerTextView.setText("");
+        }
+        else
+        {
+            correctOrWrongTextView.setText("Wrong!");
+            correctOrWrongTextView.setTextColor(Color.parseColor("#ff0000"));
+            correctAnswerTextView.setText("Right answer is: "+correctAnswerWithSpaces);
+        }
     }
+
+    private void resetResults()
+    {
+        TextView correctOrWrongTextView = (TextView) findViewById(R.id.resultTextView);
+        TextView correctAnswerTextView = (TextView) findViewById(R.id.correctAnswerText);
+        EditText insideEditText = (EditText) findViewById(R.id.translatedWord);
+        insideEditText.setText("");
+        correctAnswerTextView.setText("");
+        correctOrWrongTextView.setText("");
+    }
+    private void updateQuestionNumber(int number)
+    {
+        TextView questionNumberTextView = (TextView) findViewById(R.id.wordCounter);
+        questionNumberTextView.setText(number+"/"+list.size());
+    }
+
+    public void displayHint()
+    {
+        char firstChar, secondChar;
+        firstChar = correctAnswer.charAt(0);
+        secondChar = correctAnswer.charAt(1);
+
+        EditText insideEditText = (EditText) findViewById(R.id.translatedWord);
+        insideEditText.setText(firstChar+""+secondChar);
+    }
+
 
 
 }

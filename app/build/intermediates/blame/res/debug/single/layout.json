@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_quiz_type.xml",
-        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\layout\\activity_choose_quiz_type.xml"
-    },
-    {
         "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\mikig\\.android\\build-cache\\33b63ca4217b34cf7c292edc6f22b08587e128a4\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_quiz_type.xml",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\layout\\activity_choose_quiz_type.xml"
     },
     {
         "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
