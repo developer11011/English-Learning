@@ -43,7 +43,14 @@
             android:layout_height="50dp"
             android:text="submit"
             android:id="@+id/submitButton"
-            android:layout_marginBottom="25dp" />
+            android:layout_marginBottom="5dp" />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:textSize="12sp"
+            android:text="hint"
+            android:layout_marginBottom="25dp"
+            android:id="@+id/hintButton"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -60,15 +67,6 @@
 
     </LinearLayout>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:text="hint"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="16dp"
-        android:layout_marginBottom="16dp"
-        android:id="@+id/finishButton"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -79,5 +77,15 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
         android:id="@+id/nextButton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="finish"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/finishButton"/>
 
 </RelativeLayout>

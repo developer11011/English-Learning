@@ -20,6 +20,8 @@ public class DifficultyBActivity extends AppCompatActivity {
         listsNames.add(new Word("Crime", R.drawable.crime_image));
         listsNames.add(new Word("City slang", R.drawable.slang_image));
         listsNames.add(new Word("Medicine", R.drawable.medicines_icon));
+        listsNames.add(new Word("My words", R.drawable.my_image));
+
 
         WordAdapter theAdapter = new WordAdapter(this, listsNames, R.color.difficultyMedium);
         ListView listView = (ListView) findViewById(R.id.list);

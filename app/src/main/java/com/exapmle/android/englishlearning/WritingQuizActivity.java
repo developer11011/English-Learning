@@ -2,6 +2,7 @@ package com.exapmle.android.englishlearning;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,6 +18,10 @@ import org.w3c.dom.Text;
 import java.util.ArrayList;
 import java.util.Random;
 
+import static com.exapmle.android.englishlearning.R.id.bottom;
+import static com.exapmle.android.englishlearning.R.id.hintButton;
+import static com.exapmle.android.englishlearning.R.id.list;
+import static com.exapmle.android.englishlearning.R.id.nextButton;
 
 
 public class WritingQuizActivity extends AppCompatActivity {
@@ -27,11 +32,12 @@ public class WritingQuizActivity extends AppCompatActivity {
     String correctAnswerWithSpaces;
     String userTranslatedWord;
     int questionsCounter=1;
+    int counter = 0;
+    int[] askedWords = new int[50];
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_writing_quiz);
-
         Bundle bundle = getIntent().getExtras();
         if(bundle!=null)
         {
@@ -68,14 +74,25 @@ public class WritingQuizActivity extends AppCompatActivity {
             }
         });
 
-        Button nextButton = (Button) findViewById(R.id.nextButton);
+        final Button nextButton = (Button) findViewById(R.id.nextButton);
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                resetResults();
-                displayWordToTranslate();
-                questionsCounter++;
-                updateQuestionNumber(questionsCounter);
+                if((list.size()-1)==counter)
+                {
+                    nextButton.setText("results");
+                }
+                if(list.size()==counter)
+                {
+                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                    startActivity(intent);
+                }
+                else {
+                    resetResults();
+                    displayWordToTranslate();
+                    questionsCounter++;
+                    updateQuestionNumber(questionsCounter);
+                }
             }
         });
 
@@ -83,15 +100,22 @@ public class WritingQuizActivity extends AppCompatActivity {
         finishButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(WritingQuizActivity.this, "to results activity", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        Button hintButton = (Button) findViewById(R.id.hintButton);
+        hintButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
                 displayHint();
             }
         });
 
-
-
-
-
     }
+
+
+
 
 
     private void dismissKeyboard(Activity activity) {
@@ -104,10 +128,20 @@ public class WritingQuizActivity extends AppCompatActivity {
     private void displayWordToTranslate()
     {
         String wordToTranslate;
-
         Random rand = new Random();
-        int randomWord = rand.nextInt(list.size());
         int randomLang = rand.nextInt(2);
+        int randomWord = rand.nextInt(list.size());
+
+        boolean finish = false;
+        while(!finish) {
+            randomWord = rand.nextInt(list.size());
+            if (!contains(randomWord+1)) {
+                askedWords[counter] = randomWord+1;
+                finish = true;
+            }
+        }
+        counter++;
+
         if(randomLang==0)
         {
             Word wordObject = (Word) list.get(randomWord);
@@ -170,16 +204,33 @@ public class WritingQuizActivity extends AppCompatActivity {
         questionNumberTextView.setText(number+"/"+list.size());
     }
 
-    public void displayHint()
+    private void displayHint()
     {
-        char firstChar, secondChar;
-        firstChar = correctAnswer.charAt(0);
-        secondChar = correctAnswer.charAt(1);
+        char firstChar, secondChar, thirdChar;
+        firstChar = correctAnswerWithSpaces.charAt(0);
+        secondChar = correctAnswerWithSpaces.charAt(1);
+        thirdChar = correctAnswerWithSpaces.charAt(2);
+
 
         EditText insideEditText = (EditText) findViewById(R.id.translatedWord);
-        insideEditText.setText(firstChar+""+secondChar);
+        insideEditText.setText(firstChar+""+secondChar+""+thirdChar);
+    }
+
+    private boolean contains(int item) {
+        for (int n : askedWords) {
+            if (item == n) {
+                return true;
+            }
+        }
+        return false;
     }
 
 
 
 }
+
+
+
+
+
+

@@ -16,6 +16,10 @@
         "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\plane_image.png"
     },
     {
+        "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\my_image.png",
+        "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\my_image.png"
+    },
+    {
         "merged": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\kid_icon.png",
         "source": "C:\\AndroidStudioProjects\\EnglishLearning\\app\\src\\main\\res\\drawable-xhdpi\\kid_icon.png"
     },

@@ -119,6 +119,27 @@ public class WordLists {
                 mediumList.add(new Word("extraction", "usunięcie zęba", "ekstrakszyn"));
                 name = "Medicine";
                 break;
+            case 3:
+                mediumList.add(new Word("gobble down", "pożerać", "gobyl dałn"));
+                mediumList.add(new Word("variety", "różnorodność", "vearajiti"));
+                mediumList.add(new Word("carry on", "kontynuować", "keri on"));
+                mediumList.add(new Word("affect", "oddziaływać na", "afekt"));
+                mediumList.add(new Word("immediate", "natychmiastowy", "imidżjat"));
+                mediumList.add(new Word("carbohydrate", "węglowodany", "karbohajdrejts"));
+                mediumList.add(new Word("awake", "nie śpiący", "ełejk"));
+                mediumList.add(new Word("use up", "zużywać", "jus ap"));
+                mediumList.add(new Word("temptation", "pokusa", "temptejszym"));
+                mediumList.add(new Word("wide", "szeroki", "łajd"));
+                mediumList.add(new Word("taste bud", "kubek smakowy", "tejst bat"));
+                mediumList.add(new Word("prompt", "podopwiadać", "promt"));
+                mediumList.add(new Word("obedient", "posłuszny", "ołbidjent"));
+                mediumList.add(new Word("flavour", "smak", "flejwer"));
+                mediumList.add(new Word("fill in", "wypełnić", "fil in"));
+                mediumList.add(new Word("write down", "zapisać", ""));
+                mediumList.add(new Word("pension", "emerytura", "penszyn"));
+                mediumList.add(new Word("accounts", "księgowość", "aekaunts"));
+                mediumList.add(new Word("pick fruit", "zbierać owoce", "pik frut"));
+                name = "My Words";
         }
         return mediumList;
     }
